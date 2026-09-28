@@ -187,7 +187,7 @@ export default function Header() {
           className="relative flex shrink-0 items-center"
         >
           <Image
-            src="/images/SJS-Logo.png"
+            src="/images/SJS-logo.png"
             alt="Sanskar Jyotish Sagar"
             width={58}
             height={58}
