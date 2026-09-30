@@ -197,8 +197,8 @@ export default function Hero() {
           </Reveal>
           {/* Description */}
           <Reveal direction="up" delay={0.2}>
-          <p
-            className="
+            <p
+              className="
               mt-5
               max-w-[650px]
               text-[13px]
@@ -206,19 +206,19 @@ export default function Hero() {
               text-[#ffeceb]/85
               sm:text-[15px]
             "
-          >
-            Get personalized and authentic guidance from an experienced
-            astrologer for your birth chart, relationships, career, business,
-            rituals, and the important decisions in your life.
-          </p>
+            >
+              Get personalized and authentic guidance from an experienced
+              astrologer for your birth chart, relationships, career, business,
+              rituals, and the important decisions in your life.
+            </p>
           </Reveal>
 
           {/* CTAs */}
           <Reveal direction="up" delay={0.3}>
-          <div className="mt-7 flex flex-wrap gap-3">
-            <a
-              href="#kundli"
-              className="
+            <div className="mt-7 flex flex-wrap gap-3">
+              <a
+                href="#kundli"
+                className="
                 inline-flex
                 items-center
                 justify-center
@@ -234,14 +234,14 @@ export default function Hero() {
                 transition
                 hover:bg-[#ffc84e]
               "
-            >
-              Get Your Free Kundli
-              <ArrowRight size={16} />
-            </a>
+              >
+                Get Your Free Kundli
+                <ArrowRight size={16} />
+              </a>
 
-            <a
-              href="#contact"
-              className="
+              <a
+                href="#contact"
+                className="
                 inline-flex
                 items-center
                 justify-center
@@ -259,18 +259,17 @@ export default function Hero() {
                 transition
                 hover:bg-white/15
               "
-            >
-              <MessageCircle size={16} />
-              Talk on WhatsApp
-            </a>
-          </div>
+              >
+                <MessageCircle size={16} />
+                Talk on WhatsApp
+              </a>
+            </div>
           </Reveal>
 
           {/* Stats */}
-           <Reveal direction="up" delay={0.3}>
-
-          <div
-            className="
+          <Reveal direction="up" delay={0.3}>
+            <div
+              className="
               mt-9
               grid
               max-w-[590px]
@@ -285,24 +284,24 @@ export default function Hero() {
               py-4
               backdrop-blur-sm
             "
-          >
-            {[
-              ["25+", "Years of Experience"],
-              ["1.5L+", "Consultations"],
-              ["100%", "Personalized Guidance"],
-            ].map(([value, label]) => (
-              <div key={label} className="px-3 sm:px-5">
-                <div className="text-[21px] font-extrabold text-[#ffd56f] sm:text-[25px]">
-                  {value}
-                </div>
+            >
+              {[
+                ["25+", "Years of Experience"],
+                ["1.5L+", "Consultations"],
+                ["100%", "Personalized Guidance"],
+              ].map(([value, label]) => (
+                <div key={label} className="px-3 sm:px-5">
+                  <div className="text-[21px] font-extrabold text-[#ffd56f] sm:text-[25px]">
+                    {value}
+                  </div>
 
-                <div className="mt-1 text-[10px] font-semibold text-[#ffe9e3]/65 sm:text-[11px]">
-                  {label}
+                  <div className="mt-1 text-[10px] font-semibold text-[#ffe9e3]/65 sm:text-[11px]">
+                    {label}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-             </Reveal>
+              ))}
+            </div>
+          </Reveal>
         </div>
 
         {/* RIGHT PROFILE */}
@@ -314,10 +313,9 @@ export default function Hero() {
           <div className="absolute -right-5 top-8 hidden h-28 w-28 rounded-full border border-[#f4c767]/20 lg:block" />
 
           {/* Profile card */}
-           <Reveal direction="up" delay={0.3}>
-
-          <div
-            className="
+          <Reveal direction="up" delay={0.3}>
+            <div
+              className="
               relative
               rounded-[24px]
               border-[5px]
@@ -326,22 +324,22 @@ export default function Hero() {
               p-1.5
               shadow-[0_25px_70px_rgba(0,0,0,.36)]
             "
-          >
-            <div className="relative aspect-[4/4.55] overflow-hidden rounded-[17px] bg-[#f0dfcf]">
-              <Image
-                src="/images/guru.png"
-                alt="Acharya Gaurav Krishna Vatsalya Ji"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 90vw, 430px"
-              />
+            >
+              <div className="relative aspect-[4/4.55] overflow-hidden rounded-[17px] bg-[#f0dfcf]">
+                <Image
+                  src="/images/guru.png"
+                  alt="Acharya Gaurav Krishna Vatsalya Ji"
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 90vw, 430px"
+                />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-black/5" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-black/5" />
 
-              {/* Profile information */}
-              <div
-                className="
+                {/* Profile information */}
+                <div
+                  className="
                   absolute
                   inset-x-3
                   bottom-3
@@ -355,83 +353,16 @@ export default function Hero() {
                   shadow-xl
                   backdrop-blur
                 "
-              >
-                <div className="font-display text-[16px] font-extrabold sm:text-[18px]">
-                  Shree
-                </div>
+                >
+                  <div className="font-display text-[16px] font-extrabold sm:text-[18px]">
+                    पूज्य गुरुदेव स्वामी ब्रह्मानंद सरस्वती जी
+                  </div>
 
-                <div className="mt-1 text-[9px] font-semibold text-[#745f58] sm:text-[10px]">
-                  Bhagwat Speaker · Astrologer · Karmakandi · Sahityacharya
+                 
                 </div>
               </div>
             </div>
-          </div>
-           </Reveal>
-
-          {/* Verified badge */}
-           <Reveal direction="up" delay={0.4}>
-
-          <div
-            className="
-              absolute
-              -bottom-5
-              -left-2
-              flex
-              items-center
-              gap-2
-              rounded-xl
-              border
-              border-[#f0dfbf]
-              bg-white
-              px-3.5
-              py-2.5
-              text-[10px]
-              font-extrabold
-              text-[#74100d]
-              shadow-xl
-              sm:-left-6
-              sm:px-4
-              sm:py-3
-              sm:text-[11px]
-            "
-          >
-            <span className="grid h-7 w-7 place-items-center rounded-full bg-[#fff3ce]">
-              <Star size={14} fill="currentColor" className="text-[#d99d22]" />
-            </span>
-            Certified Astrology Service
-          </div>
-           </Reveal>
-
-          {/* Consultation badge */}
-           <Reveal direction="up" delay={0.5}>
-
-          <div
-            className="
-              absolute
-              -right-3
-              top-8
-              hidden
-              items-center
-              gap-2
-              rounded-xl
-              border
-              border-white/15
-              bg-[#6d0d0d]/80
-              px-3
-              py-2
-              text-[10px]
-              font-bold
-              text-[#ffe2a4]
-              shadow-xl
-              backdrop-blur
-              sm:flex
-              lg:-right-6
-            "
-          >
-            <Check size={14} className="text-[#f5c65f]" />
-            Personal Consultation
-          </div>
-           </Reveal>
+          </Reveal>
 
           
         </div>
